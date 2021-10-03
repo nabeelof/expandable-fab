@@ -264,6 +264,9 @@ class Label : AppCompatTextView {
                 resources.getDimension(R.dimen.efab_ui_margin_xs).toInt(),
                 resources.getDimension(R.dimen.efab_ui_margin_xxs).toInt()
             )
+            setMargin(
+                  8,8,8,8
+            )
         }
         ViewCompat.setBackground(this, backgroundDrawable)
     }
